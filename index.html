@@ -73,317 +73,303 @@
                         daughter whom I love more than anything.
                 </div>
             </div>
+        </section>
+        <section id="portfolio">
+            <h2 class="title">Portfolio</h2>
+
+            <!-- RPG Game Card and Modal -->
             <div class="row">
-                <div class="col-md-4 offset-md-5">
-                    <p>Around the Web:</p>
-                    <a href=https://www.linkedin.com/in/bryan-nishi-62586447 target="_blank"> <img class="link" src=https://seeklogo.com/images/L/linked-in-linkedin-logo-92FF20BA9B-seeklogo.com.png>
-                            </a> <a href=https://github.com/BryanNishi target="_blank"> <img class="link" src=https://www.iconsdb.com/icons/preview/white/github-6-xxl.png>
-                            </a> </div> </div> </section> <section id="portfolio">
-                        <h2 class="title">Portfolio</h2>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/RPG.png" alt="screen cap of RPG game" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Star Wars RPG Game</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#RPGgame">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="RPGgame" tabindex="-1" role="dialog" aria-labelledby="RPGgameTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="RPGgameTitle">Star Wars RPG Game</h5>
 
-                        <!-- RPG Game Card and Modal -->
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="images/RPG.png" alt="screen cap of RPG game" style="height:200px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Star Wars RPG Game</h5>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#RPGgame">
-                                            See More About This Project
-                                        </button>
-                                    </div>
-                                </div>
                             </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="RPGgame" tabindex="-1" role="dialog" aria-labelledby="RPGgameTitle"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="RPGgameTitle">Star Wars RPG Game</h5>
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="images/RPG.png" alt="screen cap of RPG game" style="width:100%">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <p class="modal-text">Click through game created using JQuery and
-                                                bootstrap. This was
-                                                our first indivudual project in bootcamp. Notable aspects include:
-                                                building object arrays, show/hide/append on button click listener,
-                                                if/then
-                                                statements, and a document reset on button click.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="https://github.com/BryanNishi/unit-4-game" target="_blank" class="btn btn-primary">See
-                                                the code</a>
-                                            <a href="https://bryannishi.github.io/unit-4-game/" target="_blank" class="btn btn-primary">Run
-                                                this program</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="modal-body">
+                                <img src="images/RPG.png" alt="screen cap of RPG game" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">Click through game created using JQuery and
+                                    bootstrap. This was
+                                    our first indivudual project in bootcamp. Notable aspects include:
+                                    building object arrays, show/hide/append on button click listener,
+                                    if/then
+                                    statements, and a document reset on button click.</p>
                             </div>
-
-
-                            <!-- Hangman Game Card and Modal -->
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="images/Hangman.png" alt="screen cap of Hangman game"
-                                        style="height:200px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Pirate's Hangman Game</h5>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hangman">
-                                            See More About This Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="hangman" tabindex="-1" role="dialog" aria-labelledby="hangmanTitle"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="hangmanTitle">Pirate's Hangman Game</h5>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="images/Hangman.png" alt="screen cap of hangman game" style="width:100%">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <p class="modal-text">Key based hangman game. Array all the things!
-                                                Arrays
-                                                of right and
-                                                wrong letters guessed, multiple words randomly chosen, and guesses
-                                                remaining.
-                                                Simple html, css, and bootstrap UI. Key event listeners and simple
-                                                end
-                                                game text
-                                                changes. </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="https://github.com/BryanNishi/WordGuessGame" target="_blank" class="btn btn-primary">See
-                                                the code</a>
-                                            <a href="https://bryannishi.github.io/WordGuessGame/" target="_blank" class="btn btn-primary">Run
-                                                this program</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <!-- Trivia and Modal -->
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="images/TriviaGame.png" alt="screen cap of trivia game"
-                                        style="height:200px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Monty Python Trivia Game</h5>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#trivia">
-                                            See More About This Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="trivia" tabindex="-1" role="dialog" aria-labelledby="triviaTitle"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="triviaTitle">Monty Python Trivia Game</h5>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="images/TriviaGame.png" alt="screen cap of trivia game" style="width:100%">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <p class="modal-text">My favorite project. Click through trivia game
-                                                with
-                                                silly
-                                                questions.
-                                                Intervals for timeouts, question and answers objects, event
-                                                listeners,
-                                                full
-                                                document
-                                                reset. </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="https://github.com/BryanNishi/TriviaGame" target="_blank" class="btn btn-primary">See
-                                                the code</a>
-                                            <a href="https://bryannishi.github.io/TriviaGame/" target="_blank" class="btn btn-primary">Run
-                                                this program</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Giphy and Modal -->
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="images/giphy.png" alt="screen cap of cars giphy"
-                                        style="height:200px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Cars Giphy</h5>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cars">
-                                            See More About This Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="cars" tabindex="-1" role="dialog" aria-labelledby="carsTitle"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="carsTitle">Cars Giphy</h5>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="images/giphy.png" alt="screen cap of cars giphy" style="width:100%">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <p class="modal-text">Ajax calls for Giphy API, Dynamic button
-                                                creation,
-                                                ability to
-                                                pause
-                                                and restart gifs.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="https://github.com/BryanNishi/GiphyButtons" target="_blank" class="btn btn-primary">See
-                                                the code</a>
-                                            <a href="https://bryannishi.github.io/GiphyButtons/GiphyCars.html" target="_blank"
-                                                class="btn btn-primary">Run
-                                                this program</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Train Scheduler and Modal -->
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="images/train.png" alt="screen cap of train scheduler"
-                                        style="height:200px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Train Scheduler</h5>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#train">
-                                            See More About This Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="train" tabindex="-1" role="dialog" aria-labelledby="trainTitle"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="trainTitle">Train Scheduler</h5>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="images/train.png" alt="screen cap of train scheduler" style="width:100%">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <p class="modal-text">Firebase database management, dynamically add
-                                                table
-                                                elements,
-                                                intervals for real time DOM manipulation.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="https://github.com/BryanNishi/TrainScheduler" target="_blank"
-                                                class="btn btn-primary">See
-                                                the code</a>
-                                            <a href="https://bryannishi.github.io/TrainScheduler/scheduler.html" target="_blank"
-                                                class="btn btn-primary">Run
-                                                this program</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Bored App and Modal -->
-                            <div class="col-md-4">
-                                <div class="card" style="width: 18rem;">
-                                    <img class="card-img-top" src="images/bored.png" alt="screen cap of bored app"
-                                        style="height:200px">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Bored App</h5>
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bored">
-                                            See More About This Project
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Modal -->
-                            <div class="modal fade" id="bored" tabindex="-1" role="dialog" aria-labelledby="boredTitle"
-                                aria-hidden="true">
-                                <div class="modal-dialog modal-dialog-centered" role="document">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="boredTitle">Bored App</h5>
-
-
-                                        </div>
-                                        <div class="modal-body">
-                                            <img src="images/bored.png" alt="screen cap of bored app" style="width:100%">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                <span aria-hidden="true">&times;</span>
-                                            </button>
-                                            <p class="modal-text">First group project. Github commands, branches,
-                                                forks.
-                                                Collaboration.
-                                                Google maps and Meetup APIs, firebase user storage/login.</p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="https://github.com/BryanNishi/boredApp" target="_blank" class="btn btn-primary">See
-                                                the code</a>
-                                            <a href="https://bryannishi.github.io/boredApp/index.html" target="_blank"
-                                                class="btn btn-primary">Run
-                                                this program</a>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/unit-4-game" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://bryannishi.github.io/unit-4-game/" target="_blank" class="btn btn-primary">Run
+                                    this program</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+
+                <!-- Hangman Game Card and Modal -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/Hangman.png" alt="screen cap of Hangman game" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Pirate's Hangman Game</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hangman">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="hangman" tabindex="-1" role="dialog" aria-labelledby="hangmanTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="hangmanTitle">Pirate's Hangman Game</h5>
+
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/Hangman.png" alt="screen cap of hangman game" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">Key based hangman game. Array all the things!
+                                    Arrays
+                                    of right and
+                                    wrong letters guessed, multiple words randomly chosen, and guesses
+                                    remaining.
+                                    Simple html, css, and bootstrap UI. Key event listeners and simple
+                                    end
+                                    game text
+                                    changes. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/WordGuessGame" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://bryannishi.github.io/WordGuessGame/" target="_blank" class="btn btn-primary">Run
+                                    this program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Trivia and Modal -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/TriviaGame.png" alt="screen cap of trivia game" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Monty Python Trivia Game</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#trivia">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="trivia" tabindex="-1" role="dialog" aria-labelledby="triviaTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="triviaTitle">Monty Python Trivia Game</h5>
+
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/TriviaGame.png" alt="screen cap of trivia game" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">My favorite project. Click through trivia game
+                                    with
+                                    silly
+                                    questions.
+                                    Intervals for timeouts, question and answers objects, event
+                                    listeners,
+                                    full
+                                    document
+                                    reset. </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/TriviaGame" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://bryannishi.github.io/TriviaGame/" target="_blank" class="btn btn-primary">Run
+                                    this program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Giphy and Modal -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/giphy.png" alt="screen cap of cars giphy" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Cars Giphy</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cars">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="cars" tabindex="-1" role="dialog" aria-labelledby="carsTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="carsTitle">Cars Giphy</h5>
+
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/giphy.png" alt="screen cap of cars giphy" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">Ajax calls for Giphy API, Dynamic button
+                                    creation,
+                                    ability to
+                                    pause
+                                    and restart gifs.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/GiphyButtons" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://bryannishi.github.io/GiphyButtons/GiphyCars.html" target="_blank"
+                                    class="btn btn-primary">Run
+                                    this program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Train Scheduler and Modal -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/train.png" alt="screen cap of train scheduler" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Train Scheduler</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#train">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="train" tabindex="-1" role="dialog" aria-labelledby="trainTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="trainTitle">Train Scheduler</h5>
+
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/train.png" alt="screen cap of train scheduler" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">Firebase database management, dynamically add
+                                    table
+                                    elements,
+                                    intervals for real time DOM manipulation.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/TrainScheduler" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://bryannishi.github.io/TrainScheduler/scheduler.html" target="_blank"
+                                    class="btn btn-primary">Run
+                                    this program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bored App and Modal -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/bored.png" alt="screen cap of bored app" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Bored App</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bored">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="bored" tabindex="-1" role="dialog" aria-labelledby="boredTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="boredTitle">Bored App</h5>
+
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/bored.png" alt="screen cap of bored app" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">First group project. Github commands, branches,
+                                    forks.
+                                    Collaboration.
+                                    Google maps and Meetup APIs, firebase user storage/login.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/boredApp" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://bryannishi.github.io/boredApp/index.html" target="_blank" class="btn btn-primary">Run
+                                    this program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
+
             <h2 class="title">Contact</h2>
-            <form method="post" action="mailto:bryan.nishi@gmail.com">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="password" class="form-control" id="name" placeholder="John Doe">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="info">Bryan Nishi
+                        <br> 2767 S Richfield St
+                        <br>Aurora, CO 80013
+                        <br>Bryan.Nishi@Gmail.com
+                        <br>(303)819-2449
+                    </h3>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" placeholder="John@email.com">
+            </div>
+            <div class="row">
+                <div class="col-md-4 offset-md-5">
+                    <p>Check out more about me:</p>
+                    <a href=https://www.linkedin.com/in/bryan-nishi-62586447 target="_blank"> <img class="link" src=https://seeklogo.com/images/L/linked-in-linkedin-logo-92FF20BA9B-seeklogo.com.png>
+                            </a> <a href=https://github.com/BryanNishi target="_blank"> <img class="link" src=https://www.iconsdb.com/icons/preview/white/github-6-xxl.png>
+                            </a> <a href=images/bryannishi.pdf target="_blank"> <img class="link" src=http://caresumeworld.com/p/2018/06/emma-hood-resume-intended-for-resume-icon-white-600x600.png>
+                            </a> </div> </div> </section> </div> <div class="footer">
+                        <div class="container">
+                            <span>
+                                © Bryan Nishi 2018
+                            </span>
+                        </div>
                 </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <input type="message" class="form-control" id="message" placeholder="You're amazing! You're hired!">
-                </div>
-                <button type="submit" class="btn">Submit</button>
-            </form>
-        </section>
-    </div>
-    <div class="footer">
-        <div class="container">
-            <span>
-                Built by Bryan Nishi 2018
-            </span>
-        </div>
-    </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
