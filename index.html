@@ -444,19 +444,59 @@
 
                             </div>
                             <div class="modal-body">
-                                <img src="images/Fern2.png" alt="screen cap of bamazon app" style="width:100%">
+                                <img src="images/Fern2.png" alt="screen cap of fern finder app" style="width:100%">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                                 <p class="modal-text">
-                                    Doesn't quite work yet. Basic HTML and backend are there, but still a work in progress.
                                     Works like a frriend finder. User asnwers questions and based on the answered they are matched with a similar user. Or a fern in this case.
+                                    Data is local to the JS, and takes from that and returns it to the DOM.
                                 </p>
                             </div>
                             <div class="modal-footer">
                                 <a href="https://github.com/BryanNishi/FriendFinder" target="_blank" class="btn btn-primary">See
                                     the code</a>
                                 <a href="https://peaceful-shelf-92578.herokuapp.com/" target="_blank"
+                                    class="btn btn-primary">Run
+                                    this program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Burger App and Modal -->
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/burger.png" alt="screen cap of Burger app" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Eat the Burger App</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#burger">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="burger" tabindex="-1" role="dialog" aria-labelledby="burgerTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="burgerTitle">Eat the Burger App</h5>
+
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/burger.png" alt="screen cap of burger app" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">
+                                    ORM and handlebars project. Burger list is on a MySQL server and clicking the buttons changes the database info and returns it. You can also create a new burger to eat as well.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/burger" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://arcane-coast-93224.herokuapp.com/" target="_blank"
                                     class="btn btn-primary">Run
                                     this program</a>
                             </div>
