@@ -53,16 +53,19 @@
                         geek culture (i.e. Dungeons and Dragons).
                         <br>
                         <br>
-                        <strong>Skills include:</strong> HTML/CSS, Javascript, React, MongoDB, Mongoose, MYSQL, Sequelize, Firebase, Node, Express,
-                        APIs, AJAX, GitHub, GitKraken, and  Visual Studio Code.
+                        <strong>Skills include:</strong> HTML/CSS, Javascript, React, MongoDB, Mongoose, MYSQL,
+                        Sequelize, Firebase, Node, Express,
+                        APIs, AJAX, GitHub, GitKraken, and Visual Studio Code.
                         <br>
                         <br>
                         I am a quick learner with strong and quick problem solving and troubleshooting skills thanks to
                         my 20 years in the live entertainment industry. From being a tech all the way up to being a
                         director of my own property, I’ve learned how to meet strict deadlines, and manage the fine
                         balance of financials, customer service, and employees. I have been tinkering with computers
-                        since I was a child and I enjoy anything that has to do with technology. Mechanical engineering and working on cars
-                        are my favorite technologies, but I also really enjoy building my own PCs, and playing/modding video games.
+                        since I was a child and I enjoy anything that has to do with technology. Mechanical engineering
+                        and working on cars
+                        are my favorite technologies, but I also really enjoy building my own PCs, and playing/modding
+                        video games.
                         <br>
                         <br>
                         When not at work, you'll find me doing home improvement projects or tinkering with cars. I love
@@ -74,9 +77,50 @@
         </section>
         <section id="portfolio">
             <h2 class="title">Portfolio</h2>
-
-            <!-- RPG Game Card and Modal -->
+            <div class="row"></div>
+            <!-- DND Card and Modal -->
             <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/dnd.png" alt="screen cap of dnd react app" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">DM's Database React App</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dnd">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="dnd" tabindex="-1" role="dialog" aria-labelledby="dndTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="dndTitle">DM's Database React App</h5>
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/dnd2.png" alt="screen cap of dnd react app" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">This was my final project for the DU bootcamp. Me and a classmate
+                                    created this Dungeons and Dragons App to help run and play a game.
+                                    It has mutliple features all built in react.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/DnDReactApp" target="_blank" class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://stark-spire-22309.herokuapp.com/" target="_blank" class="btn btn-primary">Run
+                                    this program</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RPG Game Card and Modal -->
+
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="images/RPG.png" alt="screen cap of RPG game" style="height:200px">
