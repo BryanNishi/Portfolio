@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="icon" href="./images/bn.png">
     <title>Bryan Nishi - Portfolio</title>
@@ -18,8 +18,9 @@
             <img src="./images/bn2.png" width="30" height="30" class="d-inline-block align-top" alt="">
             Bryan Nishi
         </a>
-        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -53,8 +54,9 @@
                         geek culture (i.e. Dungeons and Dragons).
                         <br>
                         <br>
-                        <strong>Skills include:</strong> HTML, CSS/Flexbox , Javascript, React, MongoDB, Mongoose, MySQL,
-                        Sequelize, Firebase, Node, Express, MVC file structures, 
+                        <strong>Skills include:</strong> HTML, CSS/Flexbox , Javascript, React, MongoDB, Mongoose,
+                        MySQL,
+                        Sequelize, Firebase, Node, Express, MVC file structures,
                         REST APIs, AJAX, GitHub, GitKraken, and Visual Studio Code.
                         <br>
                         <br>
@@ -77,13 +79,64 @@
         </section>
         <section id="portfolio">
             <h2 class="title">Portfolio</h2>
-            <div class="row"></div>
+            <h5 class="subtitle">Freelance Projects</h5>
+            <!-- Poutine Truck Card and Modal -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/poutine.png"
+                            alt="screen cap of poutine on the ritz foodtruck website" style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Poutine on the Ritz Foodtruck</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#poutine">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="poutine" tabindex="-1" role="dialog" aria-labelledby="poutineTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="poutineTitle">Poutine on the Ritz Foodtruck</h5>
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/poutine.png" alt="screen cap of dnd react app" style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">This is the website for the poutine foodtruck my wife and I
+                                    plan
+                                    on opening.
+                                    It uses vanilla html and css. It also uses google maps API and datepicker.js.
+                                    The
+                                    site is fully functional
+                                    Truck locations will update on the map from my updates on the backend.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://github.com/BryanNishi/poutine" target="_blank"
+                                    class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://bryannishi.github.io/poutine/" target="_blank"
+                                    class="btn btn-primary">See the Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <h5 class="subtitle">Sudent Projects</h5>
             <!-- DND Card and Modal -->
             <div class="row">
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <h5 class="featureProject">***(FEATURED PROJECT)***</h5>
-                        <img class="card-img-top" src="images/dnd.png" alt="screen cap of dnd react app" style="height:200px">
+                        <h5 class="featureProject">***(FINAL PROJECT)***</h5>
+                        <img class="card-img-top" src="images/dnd.png" alt="screen cap of dnd react app"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">DM's Database React App</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#dnd">
@@ -92,8 +145,11 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <!-- Modal -->
-                <div class="modal fade" id="dnd" tabindex="-1" role="dialog" aria-labelledby="dndTitle" aria-hidden="true">
+                <div class="modal fade" id="dnd" tabindex="-1" role="dialog" aria-labelledby="dndTitle"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -105,18 +161,26 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                                <p class="modal-text">This was my final project for the DU bootcamp. Me and a classmate
-                                    created this Dungeons and Dragons App to help run and play a game. Features include, generators using 
-                                    mongoDB for pulling values, public API for DnD 5e stats and info, javascript dice roller, and MVC file structure.                                
-                                    Notable Technologies: React.js, REST API, MongoDB, React-Drag-and-Drop, and React-To-Print.
-                                    Difficulties on this project were learning React's MVC structure, melding javascript and JSX to function
-                                    like vanilla JS, dynamically creating and updating stateful components in the character creator, and getting the print function to work.
+                                <p class="modal-text">This was my final project for the DU bootcamp. Me and a
+                                    classmate
+                                    created this Dungeons and Dragons App to help run and play a game. Features
+                                    include, generators using
+                                    mongoDB for pulling values, public API for DnD 5e stats and info, javascript
+                                    dice roller, and MVC file structure.
+                                    Notable Technologies: React.js, REST API, MongoDB, React-Drag-and-Drop, and
+                                    React-To-Print.
+                                    Difficulties on this project were learning React's MVC structure, melding
+                                    javascript and JSX to function
+                                    like vanilla JS, dynamically creating and updating stateful components in the
+                                    character creator, and getting the print function to work.
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/DnDReactApp" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/DnDReactApp" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://stark-spire-22309.herokuapp.com/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://stark-spire-22309.herokuapp.com/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -127,7 +191,8 @@
 
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/RPG.png" alt="screen cap of RPG game" style="height:200px">
+                        <img class="card-img-top" src="images/RPG.png" alt="screen cap of RPG game"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Star Wars RPG Game</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#RPGgame">
@@ -150,18 +215,22 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                                <p class="modal-text">Click through game created using JQuery and bootstrap. This was
+                                <p class="modal-text">Click through game created using JQuery and bootstrap. This
+                                    was
                                     building object arrays,
-                                    show/hide/append on button click listener, if/then statements, and a document reset
+                                    show/hide/append on button click listener, if/then statements, and a document
+                                    reset
                                     on button click.
                                     Main problems in this project were getting the CSS to display elements correctly
                                     and getting the character
                                     elements to change divs.</p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/unit-4-game" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/unit-4-game" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://bryannishi.github.io/unit-4-game/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://bryannishi.github.io/unit-4-game/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -172,7 +241,8 @@
                 <!-- Hangman Game Card and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Hangman.png" alt="screen cap of Hangman game" style="height:200px">
+                        <img class="card-img-top" src="images/Hangman.png" alt="screen cap of Hangman game"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Pirate's Hangman Game</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hangman">
@@ -199,18 +269,22 @@
                                 <p class="modal-text">Key based hangman game. Array all the things!
                                     Arrays of right and wrong letters guessed, multiple words randomly chosen, and
                                     guesses
-                                    remaining. Simple html, css, and bootstrap UI. Key event listeners and simple end
+                                    remaining. Simple html, css, and bootstrap UI. Key event listeners and simple
+                                    end
                                     game text
                                     changes. Main problems on this porject were getting the user input to display
                                     separated by a
-                                    comma in the array and changeing the blacnk to be the letter guessed. This was the
+                                    comma in the array and changeing the blacnk to be the letter guessed. This was
+                                    the
                                     first big
                                     project for javascript, so learnign the basics was a challenge.</p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/WordGuessGame" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/WordGuessGame" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://bryannishi.github.io/WordGuessGame/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://bryannishi.github.io/WordGuessGame/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -221,7 +295,8 @@
                 <!-- Trivia and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/TriviaGame.png" alt="screen cap of trivia game" style="height:200px">
+                        <img class="card-img-top" src="images/TriviaGame.png" alt="screen cap of trivia game"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Monty Python Trivia Game</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#trivia">
@@ -255,9 +330,11 @@
                                     interval to multiple elements.</p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/TriviaGame" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/TriviaGame" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://bryannishi.github.io/TriviaGame/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://bryannishi.github.io/TriviaGame/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -267,7 +344,8 @@
                 <!-- Giphy and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/giphy.png" alt="screen cap of cars giphy" style="height:200px">
+                        <img class="card-img-top" src="images/giphy.png" alt="screen cap of cars giphy"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Cars Giphy</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cars">
@@ -277,7 +355,8 @@
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="cars" tabindex="-1" role="dialog" aria-labelledby="carsTitle" aria-hidden="true">
+                <div class="modal fade" id="cars" tabindex="-1" role="dialog" aria-labelledby="carsTitle"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -290,8 +369,10 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                                <p class="modal-text">Simple app to search and display gifs from the Gihpy website API.
-                                    Also the ability to add custom search buttons for specific interests.Ajax calls for
+                                <p class="modal-text">Simple app to search and display gifs from the Gihpy website
+                                    API.
+                                    Also the ability to add custom search buttons for specific interests.Ajax calls
+                                    for
                                     Giphy API,
                                     Dynamic button creation, ability to pause and restart gifs.
                                     Built with javascript/Jquery, and Bootstrap. Biggest challenges were getting the
@@ -300,7 +381,8 @@
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/GiphyButtons" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/GiphyButtons" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
                                 <a href="https://bryannishi.github.io/GiphyButtons/GiphyCars.html" target="_blank"
                                     class="btn btn-primary">Run
@@ -312,7 +394,8 @@
                 <!-- Train Scheduler and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/train.png" alt="screen cap of train scheduler" style="height:200px">
+                        <img class="card-img-top" src="images/train.png" alt="screen cap of train scheduler"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Train Scheduler</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#train">
@@ -322,7 +405,8 @@
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="train" tabindex="-1" role="dialog" aria-labelledby="trainTitle" aria-hidden="true">
+                <div class="modal fade" id="train" tabindex="-1" role="dialog" aria-labelledby="trainTitle"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -335,15 +419,18 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                                <p class="modal-text">App that uses my own REST API to get, put, post, and delete from a database. Ability to
+                                <p class="modal-text">App that uses my own REST API to get, put, post, and delete
+                                    from a database. Ability to
                                     add custom trains that will automatically update arrival times in real time.
                                     Firebase database management, dynamically add table elements, intervals for real
                                     time DOM manipulation. Built using Javascript, Firebase, and moment.js.
-                                    Biggest challenges were learning how to use a new JS library and utlilizing moment.js
+                                    Biggest challenges were learning how to use a new JS library and utlilizing
+                                    moment.js
                                     to manipulate the train times.</p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/TrainScheduler" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/TrainScheduler" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
                                 <a href="https://bryannishi.github.io/TrainScheduler/scheduler.html" target="_blank"
                                     class="btn btn-primary">Run
@@ -356,7 +443,8 @@
                 <!-- Bored App and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/bored.png" alt="screen cap of bored app" style="height:200px">
+                        <img class="card-img-top" src="images/bored.png" alt="screen cap of bored app"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Bored App</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bored">
@@ -366,7 +454,8 @@
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="bored" tabindex="-1" role="dialog" aria-labelledby="boredTitle" aria-hidden="true">
+                <div class="modal fade" id="bored" tabindex="-1" role="dialog" aria-labelledby="boredTitle"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -381,16 +470,20 @@
                                 </button>
                                 <p class="modal-text">First group project in bootcamp. App looks up events on the
                                     Meetup API and displays them on a google maps element.
-                                    Also utilized firebase to an extent. Biggest challenges were learning how to code
+                                    Also utilized firebase to an extent. Biggest challenges were learning how to
+                                    code
                                     in a group and Github. We did have quite a few issues
-                                    with the final functionality due to firebase issues and github commits. App doesn't
+                                    with the final functionality due to firebase issues and github commits. App
+                                    doesn't
                                     talk to firebase but the meetup and google maps work.
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/boredApp" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/boredApp" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://bryannishi.github.io/boredApp/index.html" target="_blank" class="btn btn-primary">Run
+                                <a href="https://bryannishi.github.io/boredApp/index.html" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -399,7 +492,8 @@
                 <!-- Liri App and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Liri.png" alt="screen cap of Liri Node app" style="height:200px">
+                        <img class="card-img-top" src="images/Liri.png" alt="screen cap of Liri Node app"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Liri App</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#liri">
@@ -409,7 +503,8 @@
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="liri" tabindex="-1" role="dialog" aria-labelledby="liriTitle" aria-hidden="true">
+                <div class="modal fade" id="liri" tabindex="-1" role="dialog" aria-labelledby="liriTitle"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -424,16 +519,18 @@
                                 </button>
                                 <p class="modal-text">
                                     Node app run in a Terminal. Use specific commands to run API calls on Spotify,
-                                    BandsinTown and OMDB. User can search for specific songs, artist, or movie. Biggest
+                                    BandsinTown and OMDB. User can search for specific songs, artist, or movie.
+                                    Biggest
                                     challenges were learning
                                     node and how to actaully create functionality in a terminal.
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/liri-node-app" target="_blank" class="btn btn-primary">See
-                                    the code</a>
-                                <a href="https://drive.google.com/file/d/1fi-TIE7omwIhl_qQO6EjAh0L2gqv6fxg/view" target="_blank"
+                                <a href="https://github.com/BryanNishi/liri-node-app" target="_blank"
                                     class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://drive.google.com/file/d/1fi-TIE7omwIhl_qQO6EjAh0L2gqv6fxg/view"
+                                    target="_blank" class="btn btn-primary">See
                                     this program run</a>
                             </div>
                         </div>
@@ -468,7 +565,8 @@
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                                 <p class="modal-text">
-                                    Node server app running a fake storefront called Bamazon. User can see products for
+                                    Node server app running a fake storefront called Bamazon. User can see products
+                                    for
                                     sale and choose how many of each they want to buy.
                                     Also have the Bamazon Manager Portal that runs off the same database as the
                                     customer app. Manager app allows invetory adjustments and new item entry.
@@ -477,10 +575,11 @@
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/bamazon" target="_blank" class="btn btn-primary">See
-                                    the code</a>
-                                <a href="https://drive.google.com/open?id=1bFgmJ-WPPSG7DMaZwuasa638CCtAGOtW" target="_blank"
+                                <a href="https://github.com/BryanNishi/bamazon" target="_blank"
                                     class="btn btn-primary">See
+                                    the code</a>
+                                <a href="https://drive.google.com/open?id=1bFgmJ-WPPSG7DMaZwuasa638CCtAGOtW"
+                                    target="_blank" class="btn btn-primary">See
                                     this program run</a>
                             </div>
                         </div>
@@ -489,7 +588,8 @@
                 <!-- Friend Finder App and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/Fern.png" alt="screen cap of Fern Finder app" style="height:200px">
+                        <img class="card-img-top" src="images/Fern.png" alt="screen cap of Fern Finder app"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Fern (Friend) Finder App</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#fern">
@@ -499,7 +599,8 @@
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="fern" tabindex="-1" role="dialog" aria-labelledby="fernTitle" aria-hidden="true">
+                <div class="modal fade" id="fern" tabindex="-1" role="dialog" aria-labelledby="fernTitle"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -513,17 +614,21 @@
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                                 <p class="modal-text">
-                                    Works like a friend finder. User asnwers questions and based on the answered they
+                                    Works like a friend finder. User asnwers questions and based on the answered
+                                    they
                                     are matched with a similar user. Or a fern in this case.
-                                    Data is local to the JS, and takes from that array of objects and returns it to the
+                                    Data is local to the JS, and takes from that array of objects and returns it to
+                                    the
                                     DOM. Biggest challenge was getting the
                                     modal with the result to display from the database.
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/FriendFinder" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/FriendFinder" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://peaceful-shelf-92578.herokuapp.com/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://peaceful-shelf-92578.herokuapp.com/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -532,7 +637,8 @@
                 <!-- Burger App and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/burger.png" alt="screen cap of Burger app" style="height:200px">
+                        <img class="card-img-top" src="images/burger.png" alt="screen cap of Burger app"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Eat the Burger App</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#burger">
@@ -558,17 +664,22 @@
                                 </button>
                                 <p class="modal-text">
                                     ORM and handlebars project. Burger list is on a MySQL server and clicking the
-                                    buttons changes the database info and returns it. You can also create a new burger
+                                    buttons changes the database info and returns it. You can also create a new
+                                    burger
                                     to eat as well.
-                                    This was a very difficult project. I struggled with getting handlebars to work with
-                                    the SQL database. File structure and serverside commands were challenging to figure
+                                    This was a very difficult project. I struggled with getting handlebars to work
+                                    with
+                                    the SQL database. File structure and serverside commands were challenging to
+                                    figure
                                     out.
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/burger" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/burger" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://arcane-coast-93224.herokuapp.com/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://arcane-coast-93224.herokuapp.com/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -577,7 +688,8 @@
                 <!-- Sassy Cats and Modal -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/sassyCat.png" alt="screen cap of Sassy Cat app" style="height:200px">
+                        <img class="card-img-top" src="images/sassyCat.png" alt="screen cap of Sassy Cat app"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">Sassy Cat in Space App</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sassy">
@@ -587,7 +699,8 @@
                     </div>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="sassy" tabindex="-1" role="dialog" aria-labelledby="sassyTitle" aria-hidden="true">
+                <div class="modal fade" id="sassy" tabindex="-1" role="dialog" aria-labelledby="sassyTitle"
+                    aria-hidden="true">
                     <div class="modal-dialog modal-dialog-centered" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -603,7 +716,8 @@
                                 <p class="modal-text">
                                     2nd group project in bootcamp. This is a click through RPG game utilizing
                                     SQL/Sequelize and javascript.
-                                    I was on the front end team and designed the intitial look and functionality of the
+                                    I was on the front end team and designed the intitial look and functionality of
+                                    the
                                     site as well as some of the JS functionality.
                                     Biggest challenges were the scoring functionality and facebook funtionality.
                                     Original plan was to deploy on Facebook but that ended up
@@ -612,9 +726,11 @@
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/SassyCatsProject" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/SassyCatsProject" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://secure-castle-53195.herokuapp.com/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://secure-castle-53195.herokuapp.com/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -623,7 +739,8 @@
                 <!-- Mongo Scrape -->
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="images/scrape.png" alt="screen cap of DnD Article Scraper" style="height:200px">
+                        <img class="card-img-top" src="images/scrape.png" alt="screen cap of DnD Article Scraper"
+                            style="height:200px">
                         <div class="card-body">
                             <h5 class="card-title">DnD:Beyond Scraper</h5>
                             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#scrape">
@@ -650,15 +767,19 @@
                                 <p class="modal-text">
                                     Mongo DB and Mongoose App. Scrapes articles from the DnD Beyond website. You can
                                     add notes to an article and save an article for later.
-                                    Major difficulties of this one were getting Mongoose to connect to the DB and the
-                                    saved articles functionality. Getting specific pages to work with specific GET and
+                                    Major difficulties of this one were getting Mongoose to connect to the DB and
+                                    the
+                                    saved articles functionality. Getting specific pages to work with specific GET
+                                    and
                                     POST routes was a big challenge as well.
                                 </p>
                             </div>
                             <div class="modal-footer">
-                                <a href="https://github.com/BryanNishi/MongoScrape" target="_blank" class="btn btn-primary">See
+                                <a href="https://github.com/BryanNishi/MongoScrape" target="_blank"
+                                    class="btn btn-primary">See
                                     the code</a>
-                                <a href="https://powerful-sands-99249.herokuapp.com/" target="_blank" class="btn btn-primary">Run
+                                <a href="https://powerful-sands-99249.herokuapp.com/" target="_blank"
+                                    class="btn btn-primary">Run
                                     this program</a>
                             </div>
                         </div>
@@ -681,9 +802,12 @@
             <div class="row">
                 <div class="col-md-4 offset-md-5">
                     <p>Check out more about me:</p>
-                    <a href=https://www.linkedin.com/in/bryan-nishi-62586447 target="_blank"> <img class="link" src=https://seeklogo.com/images/L/linked-in-linkedin-logo-92FF20BA9B-seeklogo.com.png>
-                            </a> <a href=https://github.com/BryanNishi target="_blank"> <img class="link" src=https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png>
-                            </a> <a href=images/BryanNishi.pdf target="_blank"> <img class="link" src=http://caresumeworld.com/p/2018/06/emma-hood-resume-intended-for-resume-icon-white-600x600.png>
+                    <a href=https://www.linkedin.com/in/bryan-nishi-62586447 target="_blank"> <img class="link"
+                            src=https://seeklogo.com/images/L/linked-in-linkedin-logo-92FF20BA9B-seeklogo.com.png> </a>
+                            <a href=https://github.com/BryanNishi target="_blank"> <img class="link"
+                            src=https://magentys.io/wp-content/uploads/2017/04/github-logo-1.png> </a> <a
+                            href=images/BryanNishi.pdf target="_blank"> <img class="link"
+                            src=http://caresumeworld.com/p/2018/06/emma-hood-resume-intended-for-resume-icon-white-600x600.png>
                             </a> </div> </div> </section> </div> <div class="footer">
                         <div class="container">
                             <span>
@@ -694,10 +818,12 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+</script>
 <script src="js/portfolio.js"></script>
 
 
