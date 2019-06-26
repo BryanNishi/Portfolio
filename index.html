@@ -48,17 +48,17 @@
                     <img src="images/me.jpg" class="me img-fluid" alt="Bryan Nishi">
                 </div>
                 <div class="col-md-9">
-                    <p class="intro">Hi! I'm Bryan. I'm a fullstack web developer
-                        with an emphasis in front-end/UI development. I have a strong desire to work in the non-profit
-                        sector on websites for charities, in the automotive industry, or something having to do with
-                        geek culture (i.e. Dungeons and Dragons).
-                        <br>
-                        <br>
+                    <p class="intro">Hi! I'm Bryan. I'm a freelance fullstack web developer with an emphasis in
+                        front-end/UI development. I have a strong desire to work in the automotive industry, in the
+                        non-profit sector for charities, or something having to do with geek culture (i.e. Dungeons and
+                        Dragons).
+                        <br />
+                        <br />
                         <strong>Skills include:</strong> HTML, CSS/Flexbox , Javascript, React, MongoDB, Mongoose,
                         MySQL,
                         Sequelize, Firebase, Node, Express, MVC file structures,
                         REST APIs, AJAX, GitHub, GitKraken, and Visual Studio Code.
-                        <br>
+                        <br />
                         <br>
                         I am a quick learner with strong and quick problem solving and troubleshooting skills thanks to
                         my 20 years in the live entertainment industry. From being a tech all the way up to being a
@@ -70,7 +70,8 @@
                         video games.
                         <br>
                         <br>
-                        When not at work, you'll find me doing home improvement projects or tinkering with cars. I love
+                        When not at work, you'll find me doing home improvement projects or tinkering with
+                        cars/motorcycles. I love
                         seeing the fruits of my labor and front-end development allows me to continue using my
                         creativity, imagination and my passion for creating things. I do all this for my wife and
                         daughter whom I love more than anything.
@@ -80,8 +81,97 @@
         <section id="portfolio">
             <h2 class="title">Portfolio</h2>
             <h5 class="subtitle">Freelance Projects</h5>
-            <!-- Poutine Truck Card and Modal -->
+            <!-- La Guapa Card and Modal -->
             <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/LaGuapa.png" alt="screen cap of La Guapa Boutique website"
+                            style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">La Guapa Boutique</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#laguapa">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="laguapa" tabindex="-1" role="dialog" aria-labelledby="laguapaTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="laguapaTitle">La Guapa Boutique</h5>
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/LaGuapa2.png" alt="screen cap of La Guapa Boutique website"
+                                    style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">This is the website for a Quinceañera store, La Guapa Boutique, in
+                                    Denver, CO.
+                                    It is built using html/css, JS, bootstrap, google maps, facebook plugins, and
+                                    formspree. It is fully mobile responsive and built with a teen audience in mind.
+                                    Site will be deployed by July 1st 2019.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://bryannishi.github.io/La-Guapa/" target="_blank"
+                                    class="btn btn-primary">See the Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tito Zambrano Card and Modal -->
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/tito.png" alt="screen cap of Tito Zambrano website"
+                            style="height:200px">
+                        <div class="card-body">
+                            <h5 class="card-title">Tito Zambrano Portfolio</h5>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tito">
+                                See More About This Project
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="tito" tabindex="-1" role="dialog" aria-labelledby="titoTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="poutineTitle">Tito Zambrano Portfolio</h5>
+
+                            </div>
+                            <div class="modal-body">
+                                <img src="images/tito2.png" alt="screen cap of Tito Zambrano website"
+                                    style="width:100%">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                <p class="modal-text">This is a portfolio site for Tito Zambrano who is a contenstant on
+                                    Ink Master Season 12.
+                                    It is built with html/css, JS, and uses parallax for some flair. It is fully mobile
+                                    responsive.
+                                    Unfortunatley this never got deployed before he started on the show so the project
+                                    is in limbo as of now.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="https://bryannishi.github.io/tito/" target="_blank" class="btn btn-primary">See
+                                    the Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Poutine Truck Card and Modal -->
+
                 <div class="col-md-4">
                     <div class="card" style="width: 18rem;">
                         <img class="card-img-top" src="images/poutine.png"
@@ -109,13 +199,11 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
-                                <p class="modal-text">This is the website for the poutine foodtruck my wife and I
-                                    plan
-                                    on opening.
+                                <p class="modal-text">This is the website for the poutine on the ritz foodtruck.
                                     It uses vanilla html and css. It also uses google maps API and datepicker.js.
-                                    The
-                                    site is fully functional
-                                    Truck locations will update on the map from my updates on the backend.
+                                    The site is fully functional and Truck locations will update on the map from updates
+                                    on the backend.
+                                    Site has not been deployed as the truck never opened.
                                 </p>
                             </div>
                             <div class="modal-footer">
@@ -158,9 +246,10 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                     <p class="modal-text">
+                                        Site is still a work in progress and not fully functional.
                                         Operations portal for a food truck. Made using vanilla JS and bootstrap. Uses
                                         firebase as the database. Features include a timeclock and sales tracker.
-                                        Site is still a work in progress and not fully functional.
+
                                     </p>
                                 </div>
                                 <div class="modal-footer">
@@ -179,8 +268,8 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="images/abk1.png"
-                                alt="screen cap of art by kim website" style="height:200px">
+                            <img class="card-img-top" src="images/abk1.png" alt="screen cap of art by kim website"
+                                style="height:200px">
                             <div class="card-body">
                                 <h5 class="card-title">Art by Kim</h5>
                                 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#abk">
@@ -204,7 +293,8 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                     <p class="modal-text">
-                                        Template site for my firend Kim. This will be her portfolio eventually. Simple design without extra mess such as carousels and JS.
+                                        Template site for my friend Kim. This will be her portfolio eventually. Simple
+                                        design without extra mess such as carousels and JS.
                                         Pinterest like layout using bootstrap.
                                     </p>
                                 </div>
